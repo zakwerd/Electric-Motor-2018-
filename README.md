@@ -35,4 +35,20 @@ Testing revealed that two ball bearings dramatically increased the friction of t
 ![CAD MOTOR](https://user-images.githubusercontent.com/59108656/89958454-bc88c200-dbee-11ea-8d35-1d921f4f19bc.png)  
 *Figure 2. CAD displaying front, side, top, and isometric views of the motor (units: inches)*
 
+## Theory of Operation
+![Motor Circuit_schem](https://user-images.githubusercontent.com/59108656/89958620-2d2fde80-dbef-11ea-965f-dc8346eea354.png)  *Figure 3. Motor Circuit Diagram*
 
+### Primary Circuit Component Overview:
+**NPN Transistors**  
+NPN transistors function as switches, allowing current to flow when more than 0.7 V is applied to the base. An NPN transistor works by having three silicon layers sandwiched together. P-layers are doped - meaning other elements are added to the silicon crystal lattice - with elements, typically aluminum, containing three valence electrons (the amount silicon has), resulting in free electron “holes” to be created in the crystal lattice. N-layers are doped with an element, typically phosphorus, containing five valence electrons, creating extra free electrons in the lattice. Free electrons easily move from the p to n layer when a voltage is applied to the base to “saturate” it (meaning the base-emitter and base-collector junctions become forward biased). Once this occurs, current can flow from the collector to emitter.
+
+**Unipolar Hall Chips**  
+Unipolar Hall Chips work under the Hall Effect: on the chip’s p-layer, when a magnetic force is present, the holes (positive charges) are polarized to one side (see Diagram 2). As current is applied, the Lorentz force - a force exerted by a magnetic field on a moving charge - also polarizes the charges. The separation of charges creates a potential difference in the p-layer (labeled as V_H in Diagram 2), resulting in current to flow through the connected, polarized ends (Hall Chip output).
+
+![skykhPXZAp5eLY8OijnQQ9g](https://user-images.githubusercontent.com/59108656/89958783-a8919000-dbef-11ea-81fe-7724f4affe32.png)  
+*Diagram 2. Visual of a unipolar Hall Chip’s internals when a magnetic field is present* 
+
+**Electromagnets**  
+As current flows through a wire, a magnetic field is generated. When a current passes through a coiled wire, or solenoid, a magnetic field is generated through the inside and around the outside of the wire in a figure-eight shape (displayed by Diagram 3). The magnetic field is strongest directly in front of the solenoid (green bar on Diagram 3) and is unapparent when perpendicular to the solenoid (red bar on Diagram 3). Ampere’s Law says the strength of a solenoid’s magnetic field can be approximated by B=unI where u is a constant multiplied by the solenoid core’s relative permeability, n is the number of coils divided by the wire length, and I is the current through the wire. With the solenoids’ generated magnetic fields, the fixed, rotor magnets can be attracted or repelled, spinning the rotor.  
+![sOraYdnCH3j2xQVmOM6hviw](https://user-images.githubusercontent.com/59108656/89958876-e8587780-dbef-11ea-8db1-c6db472c0d49.png)  
+*Diagram 3. Visual of the magnetic field generated as an electric current passes through a solenoid*
