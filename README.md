@@ -17,10 +17,17 @@ The motor is a simplistic two phase, four pole motor that uses a lightweight woo
 *Figure 1. Front and back angle photos of the final motor*
 
 ### Design Choices and Reasoning
-| Design Choice | Reasoning |
-| ----------- | ----------- |
-| Two-Phase Motor | Two-phase motors are mechanically and electrically simple,   |
-|                 | allowing for more time to test and perfect the motor. |
-|                 | The simple design narrowed the room for possible errors  |
-|                 | and unexpected roadblocks (both mechanically and electrically). |
-| Paragraph   | Text        |
+**Two-Phase Motor Decision**  
+Two-phase motors are mechanically and electrically simple, allowing for more time to test and perfect the motor. The simple design narrowed the room for possible errors and unexpected roadblocks (both mechanically and electrically). 
+
+**Electromagnets Embedded Entirely in 2x4 Wood**  
+The robust electromagnet holds minimized vibration, maximized stability, and made the motor more compact.
+
+**Wood Dowel Rotor**  
+The rotor’s moment of inertia (dependent on mass) directly corresponds to its angular velocity. A lighter rotor enabled a higher RPM.
+
+**Compact 3D Printed Rotor**  
+The moment of inertia of a cylinder increases with its radius. Minimizing the size of the rotor minimized its moment of inertia, thus maximizing RPM.
+
+**Single Ball Bearing**  
+Testing revealed that two ball bearings dramatically increased the friction of the rotor, reducing RPM significantly. Using one ball bearing came with the cost of a less stable rotor.
