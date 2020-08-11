@@ -31,3 +31,8 @@ The moment of inertia of a cylinder increases with its radius. Minimizing the si
 
 **Single Ball Bearing**  
 Testing revealed that two ball bearings dramatically increased the friction of the rotor, reducing RPM significantly. Using one ball bearing came with the cost of a less stable rotor.
+
+![CAD MOTOR](https://user-images.githubusercontent.com/59108656/89958454-bc88c200-dbee-11ea-8d35-1d921f4f19bc.png)  
+*Figure 2. CAD displaying front, side, top, and isometric views of the motor (units: inches)*
+
+
