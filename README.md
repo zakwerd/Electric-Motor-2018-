@@ -7,6 +7,7 @@ This paper describes the design process and results of a two-phase, four pole, b
 ## Final RPM Results
 **Top RPM:** 13,140 RPM  
 **Avg. RPM:** 12,120 RPM   
+**Awards:** 4th highest RPM in our high school's history!!!
 
 ## Design
 
