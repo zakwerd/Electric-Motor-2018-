@@ -17,3 +17,7 @@ The motor is a simplistic two phase, four pole motor that uses a lightweight woo
 *Figure 1. Front and back angle photos of the final motor*
 
 ### Design Choices and Reasoning
+| Design Choice | Reasoning |
+| ----------- | ----------- |
+| Two-Phase Motor      | Two-phase motors are mechanically and electrically simple, allowing for more time to test and perfect the motor. The simple design narrowed the room for possible errors and unexpected roadblocks (both mechanically and electrically). |
+| Paragraph   | Text        |
