@@ -1,4 +1,4 @@
-# Electric Motor Project (2019)
+# Electric Motor Project (2018)
 Designing and Building an Electric Motor Optimized for High RPM with [Ethan Zhang](https://www.linkedin.com/in/ethnzhng/)
 
 ## Abstract
